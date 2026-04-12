@@ -43,7 +43,7 @@ We identified three PTM enzyme co‑expression modules (metabolic stress, pro‑
 
 ## 🔧 Requirements
 
-- R version 4.3.3
+- The analysis was finalized using R 4.5.2; earlier versions (e.g., 4.3.3) were used during development and stability testing, and their session information is retained in the Git history.
 - Key R packages (versions used are listed in the scripts; typical installation):
   ```r
   install.packages(c("Seurat", "NMF", "clusterProfiler", "monocle3", 
